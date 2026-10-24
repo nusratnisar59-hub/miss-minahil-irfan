@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: blue;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}

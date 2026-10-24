@@ -1,0 +1,32 @@
+body{
+    background-color: #b1f3d1;
+    
+}
+.main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.cls1{
+   flex: 1;
+   padding: 0 20px; 
+
+
+}
+.column:first-child {
+  border-right: 2px solid black; /* Dermiyan ki line ki motai aur rang */
+}
+
+.column:nth-child(2) {
+  /* background-color: #f9f9f9; Misaal ke taur par background color */
+  padding-left: 20px;
+}
+
+/* Ya phir agar 2 hi columns hain toh :last-child bhi use kar sakti hain */
+.column:last-child {
+  padding-left: 20px;
+}
+
+
+
